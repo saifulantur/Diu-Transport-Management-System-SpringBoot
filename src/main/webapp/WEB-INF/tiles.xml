@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+		"-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+		"http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+
+<tiles-definitions>
+
+	<definition name="app.homepage" template="/WEB-INF/layouts/default.jsp">
+		<put-attribute name="title" value="DIU TMS" />
+		<put-attribute name="header" value="/WEB-INF/tiles/header.jsp" />
+		<put-attribute name="content" value="/WEB-INF/tiles/login.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/tiles/footer.jsp" />
+	</definition>
+
+	<definition name="home" extends="app.homepage">
+		<put-attribute name="title" value="Home" />
+		<put-attribute name="content" value="/WEB-INF/tiles/home.jsp" />
+	</definition>
+
+    <!--<definition name="index" extends="app.homepage">-->
+        <!--<put-attribute name="title" value="Index" />-->
+        <!--<put-attribute name="content" value="/WEB-INF/tiles/index.jsp" />-->
+    <!--</definition>-->
+
+    <definition name="login" extends="app.homepage">
+        <put-attribute name="title" value="Login" />
+        <put-attribute name="content" value="/WEB-INF/tiles/login.jsp" />
+    </definition>
+
+    <definition name="userregistration" extends="app.homepage">
+        <put-attribute name="title" value="User Registration" />
+        <put-attribute name="content" value="/WEB-INF/tiles/userregistration.jsp" />
+    </definition>
+    
+   <definition name="test" extends="app.homepage">
+        <put-attribute name="title" value="Test File" />
+        <put-attribute name="content" value="/WEB-INF/tiles/test.jsp" />
+    </definition>
+    
+    <definition name="test1" extends="app.homepage">
+        <put-attribute name="title" value="Test1 File" />
+        <put-attribute name="content" value="/WEB-INF/tiles/test1.jsp" />
+    </definition>
+    
+    <definition name="bill" extends="app.homepage">
+        <put-attribute name="title" value="Billing Information" />
+        <put-attribute name="content" value="/WEB-INF/tiles/bill.jsp" />
+    </definition>
+    
+    <definition name="driver" extends="app.homepage">
+        <put-attribute name="title" value="Driver" />
+        <put-attribute name="content" value="/WEB-INF/tiles/driver.jsp" />
+    </definition>
+    
+    <definition name="viewBrands" extends="app.homepage">
+        <put-attribute name="title" value="Brands" />
+        <put-attribute name="content" value="/WEB-INF/tiles/brands.jsp" />
+    </definition>
+    
+    <definition name="viewTransportType" extends="app.homepage">
+        <put-attribute name="title" value="Transport Type" />
+        <put-attribute name="content" value="/WEB-INF/tiles/transport_type.jsp" />
+    </definition>
+    
+    <definition name="transportinformation" extends="app.homepage">
+        <put-attribute name="title" value="transportInformation" />
+        <put-attribute name="content" value="/WEB-INF/tiles/transportinformation.jsp" />
+    </definition>
+    
+    <definition name="student" extends="app.homepage">
+        <put-attribute name="title" value="Student Information" />
+        <put-attribute name="content" value="/WEB-INF/tiles/student.jsp" />
+    </definition>
+    
+    <definition name="brandmodel" extends="app.homepage">
+        <put-attribute name="title" value="Brand Model" />
+        <put-attribute name="content" value="/WEB-INF/tiles/brandmodel.jsp" />
+    </definition>
+    
+    <definition name="driverinformation" extends="app.homepage">
+        <put-attribute name="title" value="DIUTMS | Driver Information" />
+        <put-attribute name="content" value="/WEB-INF/tiles/driverinformation.jsp" />
+    </definition>
+    
+    <definition name="helperinformation" extends="app.homepage">
+        <put-attribute name="title" value="DIUTMS | Helper Information" />
+        <put-attribute name="content" value="/WEB-INF/tiles/helperinformation.jsp" />
+    </definition>
+    
+    <definition name="venue" extends="app.homepage">
+        <put-attribute name="title" value="DIUTMS | Travel or Trip Venue" />
+        <put-attribute name="content" value="/WEB-INF/tiles/venue.jsp" />
+    </definition>
+    
+    
+    <definition name="viewInstitute" extends="app.homepage">
+        <put-attribute name="title" value="DIUTMS | Institute" />
+        <put-attribute name="content" value="/WEB-INF/tiles/institute.jsp" />
+    </definition>
+    
+    <definition name="transportschedule" extends="app.homepage">
+        <put-attribute name="title" value="DIUTMS | Transport Schedule " />
+        <put-attribute name="content" value="/WEB-INF/tiles/transportschedule.jsp" />
+    </definition>
+    
+    <definition name="generaltravelinformation" extends="app.homepage">
+        <put-attribute name="title" value="DIUTMS | General Travel Information" />
+        <put-attribute name="content" value="/WEB-INF/tiles/generaltravelinformation.jsp" />
+    </definition>
+    
+    <definition name="view-scheduled-transport-information" extends="app.homepage">
+        <put-attribute name="title" value="DIUTMS | Schedule Travel Information" />
+        <put-attribute name="content" value="/WEB-INF/tiles/scheduledtravelinformation.jsp" />
+    </definition>
+    
+    <definition name="transportrequisition" extends="app.homepage">
+        <put-attribute name="title" value="DIUTMS | Transport Requisition" />
+        <put-attribute name="content" value="/WEB-INF/tiles/transportrequisition.jsp" />
+    </definition>
+    
+    <definition name="transportRequisitionApproval" extends="app.homepage">
+        <put-attribute name="title" value="DIUTMS | Transport Requisition Approval" />
+        <put-attribute name="content" value="/WEB-INF/tiles/transportrequisitionapproval.jsp" />
+    </definition>
+    
+    <definition name="viewTransportAssign" extends="app.homepage">
+        <put-attribute name="title" value="DIUTMS | Transport Assign" />
+        <put-attribute name="content" value="/WEB-INF/tiles/transportassign.jsp" />
+    </definition>
+    <!-- Test Case START -->
+    
+    <definition name="testcase" extends="app.homepage">
+        <put-attribute name="title" value="Test Case" />
+        <put-attribute name="content" value="/WEB-INF/tiles/divtest.jsp" />
+    </definition>
+    
+    <definition name="rptbrands" extends="app.homepage">
+        <put-attribute name="title" value="Test Case" />
+        <put-attribute name="content" value="/WEB-INF/tiles/rptbrands.jsp" />
+    </definition>
+    
+    <definition name="rptUniversitySchedule" extends="app.homepage">
+        <put-attribute name="title" value="University Bus Schedule" />
+        <put-attribute name="content" value="/WEB-INF/tiles/rpt_universitybus_schedule.jsp" />
+    </definition>
+    <!-- Test Case END -->
+    
+    
+</tiles-definitions>
+
